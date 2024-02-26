@@ -294,14 +294,7 @@ add_action( 'init', 'rpress_check_pay_status' );
 
 
 
-function test(){
-	$test_mode = rpress_get_option( 'test_mode' );
-	if( $test_mode){
-		print_r('running on test mode');
 
-	}
-}
-// add_action( 'init', 'test' );
 
 
 
